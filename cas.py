@@ -2,7 +2,7 @@ import streamlit as st
 from twilio.rest import Client
 
 st.set_page_config(page_title="Twilio Caller", page_icon="📞", layout="centered")
-st.title("📞 Make a Call, Send SMS & WhatsApp with Twilio")
+st.title("📞 Call, text & WhatsApp with Twilio")
 
 # Load secrets
 account_sid = st.secrets["account_sid"]
